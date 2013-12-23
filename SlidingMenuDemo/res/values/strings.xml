@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MobCtrl万能遥控</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="empty"></string>
+    <string name="setting">设　置</string>
+    <string name="yixin">易　信</string>
+    <string name="friend">朋友圈</string>
+    <string name="group">群组</string>
+    <string name="nearby">附近</string>
+    <string name="listview">列表</string>
+    <string name="app_about">关于</string>
+</resources>

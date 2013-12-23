@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <color name="text_white_shadow_color">#ff5a9487</color>  -->
+    <color name="white">#ffffffff</color>
+    <color name="tools_box_bg">#ff333332</color>
+    <color name="text_white_shadow_color">#ff5a9487</color>
+</resources>

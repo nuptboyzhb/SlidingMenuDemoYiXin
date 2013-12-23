@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/tools_box_bg"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:id="@+id/llRoot"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/nickNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10.0dip"
+            android:text="nuptboyzhb"
+            android:textColor="#ffccccc6"
+            android:textSize="16.0sp" />
+
+        <include
+            android:id="@+id/nearbyBtnLayout"
+            layout="@layout/toolbox_item_nearby" />
+
+        <include
+            android:id="@+id/circleBtnLayout"
+            layout="@layout/toolbox_item_friend" />
+        
+        <include
+            android:id="@+id/groupBtnLayout"
+            layout="@layout/toolbox_item_group" />
+
+        <include
+            android:id="@+id/settingBtnLayout"
+            layout="@layout/toolbox_item_setting" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.3299866dip"
+            android:background="#ff1c1c1b" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ff474745" />
+
+        <TextView
+            android:id="@+id/inviteFriendBtnLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginTop="70.0dip"
+            android:background="@drawable/tools_box_invite_btn_selector"
+            android:gravity="center"
+            android:text="邀请好友"
+            android:textColor="#ff999994"
+            android:textSize="12.0sp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,2 @@
+1.用eclipse打开三个项目
+2.运行SlidingMenuDemo即可
